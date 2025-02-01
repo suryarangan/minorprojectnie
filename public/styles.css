@@ -1,0 +1,54 @@
+li{
+    list-style-type: disc;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 8px;
+    background-color: thistle;
+    border-radius: 5px;
+
+}
+
+#reviewList{
+    text-align: left;
+    padding: 5px;
+}
+
+#popular-businesses{
+    display: flex;
+    gap: 20px;
+}
+
+.rec{
+    list-style-type: none;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+    margin-top: 8px;
+    background-color:burlywood;
+    border-radius: 5px;
+    text-wrap: wrap;
+    font-family:monospace;
+    font-size: larger;
+    max-width: 250px;
+}
+
+#contactbox{
+    display: none;
+    border-radius: 25%;
+    text-align: justify;
+    padding: 15px;
+    background-color: #d85700;
+    position: absolute;
+    /* width: 20vh; */
+    right: 12vh;
+    animation: blink 1.5s linear infinite alternate;
+}
+
+@keyframes blink {
+    0% {
+       opacity: 0;
+    }
+ 
+    100% {
+       opacity: 1;
+    }
+ }
